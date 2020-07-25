@@ -1,0 +1,66 @@
+.container{
+
+    background-color: #fff;
+    height: 5000px;
+    width: 1500px;
+
+}
+
+.head{
+
+    height: 700px;
+    width: 1500px;
+    background-image : url(/home/mohamed/Delani/img/2.jpg); max-width: 100%; max-height: 100%;
+    background-size: 100% 100%;
+    
+
+}
+
+.about{
+    background-color: #000;
+    height: 350px;
+    width: 1110px;
+}
+
+.services{
+
+    height: 400px;
+    width: 1110px;
+    background-image: url(/home/mohamed/Delani/img/3.jpg);
+}
+
+.info{
+    background-color: #000;
+    height: 350px;
+    width: 1110px;
+}
+
+.portfolio{
+
+    height: 400px;
+    width: 1110px;
+
+}
+
+.contact{
+
+
+    height: 400px;
+    width: 1110px;
+    background-image: url(/home/mohamed/Delani/img/1.jpg);max-width: 100%; max-height: 100%;
+}
+
+.footer{
+
+    background-color: black;
+    height: 100px;
+    width: 1110px;
+}
+
+.text1{
+
+    @import url('https://fonts.googleapis.com/css?family=Mulish&display=swap');
+    color: #fff;
+    text-align: center;
+
+}
