@@ -58,13 +58,16 @@
     width: 1110px;
     background-image: url(/home/mohamed/Delani/img/1.jpg);
     background-size: 100% 100%;
+    text-align: center;
+    color: white;
 }
 
 .footer{
 
-    background-color: black;
+    background-color: white;
     height: 100px;
     width: 1110px;
+    text-align: center;
 }
 
 .text1{
@@ -79,12 +82,20 @@
 
 .column {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 33%;
+    padding: 10px;
   }
   
   .row::after {
     content: "";
     clear: both;
     display: table;
+  }
+
+  .social-images{
+      height: 250px;
+      width: 250px;
+      margin-left: 450px;
+      margin-top: 100px;
+    
   }
