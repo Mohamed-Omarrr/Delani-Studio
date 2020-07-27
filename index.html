@@ -18,7 +18,7 @@
         
 
             <div class="text1">
-                <img src="/home/mohamed/Delani/img/4.png">
+                <img src="img/4.png">
 <br><br>
                 <h2> WELCOME </h2>
                 
@@ -27,7 +27,7 @@
                 <h6> AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
 <br><br>
 <br><br>
-                <img src="/home/mohamed/Delani/img/26.png">
+                <img src="img/26.png">
 
 
             </div>
@@ -80,13 +80,19 @@
 <br><br> 
             <div class="row">
                 <div class="column">
-                  <img src="/home/mohamed/Delani/img/13.png" style="width:25%">
+                  <img src="img/13.png" style="width:25%" id="img3" onclick="design()" >
+                  <h4> Design </h4>
+                  <h5 id="text3"></h5>
                 </div>
                 <div class="column">
-                  <img src="/home/mohamed/Delani/img/14.png" style="width:25%">
+                  <img src="img/14.png" style="width:25%" id="img4" onclick="development()">
+                  <h4> Development </h4>
+                  <h5 id="text4"> </h5>
                 </div>
                 <div class="column">
-                  <img src="/home/mohamed/Delani/img/15.png"  style="width:25%">
+                  <img src="img/15.png"  style="width:25%" id="img5" onclick="product()">
+                  <h4> Product Management </h4>
+                  <h5 id="text5"> </h5>
                 </div>
               </div>
 
@@ -103,25 +109,25 @@
 
             <div class="row">
                 <div class="column">
-                  <img src="/home/mohamed/Delani/img/8.jpg" style="width:40%">
+                  <img src="img/8.jpg" style="width:40%">
                 </div>
                 <div class="column">
-                  <img src="/home/mohamed/Delani/img/7.jpg" style="width:40%">
+                  <img src="img/7.jpg" style="width:40%">
                 </div>
                 <div class="column">
-                  <img src="/home/mohamed/Delani/img/6.jpg"  style="width:40%">
+                  <img src="img/6.jpg"  style="width:40%">
                 </div>
                 <div class="column">
-                    <img src="/home/mohamed/Delani/img/5.jpg" style="width:40%">
+                    <img src="img/5.jpg" style="width:40%">
                   </div>
                   <div class="column">
-                    <img src="/home/mohamed/Delani/img/10.jpg" style="width:40%">
+                    <img src="img/10.jpg" style="width:40%">
                   </div>
                   <div class="column">
-                    <img src="/home/mohamed/Delani/img/11.jpg"  style="width:40%">
+                    <img src="img/11.jpg"  style="width:40%">
                   </div>
                   <div class="column">
-                    <img src="/home/mohamed/Delani/img/12.jpg"  style="width:40%">
+                    <img src="img/12.jpg"  style="width:40%">
                   </div>
               </div>
 
@@ -136,6 +142,28 @@
         <div class="contact">
 
             <h3 style="padding-top: 40px;"><strong> CONTACT US </strong></h3>
+
+            <form onsubmit="form()">
+
+              <label for="name" id="name"></label>
+              <input type="text" id="name" name="firstname" placeholder="Name..." size="40">
+
+              <label for="email" id="email"></label>
+              <input type="text" id="email" name="youremail" placeholder="Email..." size="40">
+
+
+              <label for="message" id="message"></label>
+              <input type="text" id="message" name="typemessage" placeholder="Your message here ..." size="100"
+
+
+
+
+
+
+
+
+
+            </form>
 
 
 

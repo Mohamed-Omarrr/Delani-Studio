@@ -99,3 +99,31 @@
       margin-top: 100px;
     
   }
+  #name{
+
+    float: left;
+   margin-left: 75px;
+   opacity: 0.3;
+   border: 2px solid white;
+   border-radius: 4px;
+   
+  }
+
+  #message{
+
+    margin-top: 25px;
+    opacity: 0.3;
+   border: 2px solid white;
+   border-radius: 4px;
+  
+  }
+
+  #email{
+
+    float: left;
+   margin-right: 20px;
+   opacity: 0.3;
+   border: 2px solid white;
+   border-radius: 4px;
+   
+  }
